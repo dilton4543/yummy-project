@@ -1,0 +1,70 @@
+.container-fluid{
+    background-color: lightgrey;
+}
+.enjoy{
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    font-weight: 700;
+}
+.watch{
+    text-decoration: none;
+    color: black;
+}
+.watch:hover{
+    color: red;
+}
+.learn{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+/* #food{
+    background-image: url(/yummy/stats-bg.jpg);
+    background-attachment: fixed;
+} */
+#foods{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./stats-bg.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#text{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+#tex{
+   color:  rgba(255, 255, 255, 0.6);
+   font-size: 20px;
+   font-weight: 700;
+}
+#rw{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card1{
+    transition: transform .5s;
+}
+.card1:hover{
+    transform: scale(1.05);
+}
+.forma{
+    background-color: #e9ecef; 
+    /* background-color: #dee2e6; */
+    /* background-color: #ced4da; */
+    /* background-color: #adb5bd; */
+
+}
+/* #tex{
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+} */
+/* #play{
+    position: relative;
+}
+#pl{
+    position: absolute;
+    font-size: 70px;
+    top: 40px;
+    left: 150px;
+} */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body class="w-50 ms-3">
+    <h1>File Upload Form</h1>
+    <p>This live demo of <span class="text-primary">File Upload Forms </span> is provided by <span class="text-primary">Forms <br> Studio.</span>watch the <span class="text-primary">video tutorial to learn mo</span> </p><br>
+    <label for="name" class="form-label">Name</label><br>
+    <label for="enter" class="form-label">Enter your full name</label><br>
+    <input type="text" name="answer" id="answer" class="form-control form-control-sm" placeholder="Your Answer" required><br>
+
+    <label for="email" class="form-label">Email Address</label><br>
+    <label for="email" class="form-label">We'll send a confirmation to this address.</label><br>
+    <input type="text" name="email" id="email" class="form-control form-control-sm" placeholder="Your Answer" required><br>
+
+    <label for="dateofbirth" class="form-label">Date of Birth</label><br>
+    <input type="text" name="dob" id="dob" class="form-control form-control-sm" placeholder="Date"><br>
+
+    <label for="gender" class="form-label ">Gender</label>
+    <div class="form-radio">
+        <input class="form-radio-input" type="radio" value="" id="flexCheckDefault">
+        <label class="form-radio-label" for="flexCheckDefault"> Male </label>
+    </div>
+
+    <div class="form-radio">
+        <input class="form-radio-input" type="radio" value="" id="flexCheckDefault">
+        <label class="form-radio-label" for="flexCheckDefault"> Female </label>
+    </div><br>
+    <label for="degree" class="form-label">Degree</label><br>
+    <select class="form-select " aria-label="Default select example" required>
+       
+        <option selected>Choose</option>
+        <option value="1">B.s.c</option>
+        <option value="2">M.s.c</option>
+        <option value="3">P.h.d</option>
+    </select> <br>
+    <label for="resume" class="form-label">Resume</label><br>
+    <label for="resume" class="form-label">Upload your resume in PDF format</label><br>
+    <!-- <span class="input-group-text" id="basic-addon1">Browse</span> -->
+    <input type="file" name="Browse" id="Browse" required><br><br>
+    <label for="resume" class="form-label">Pictures</label><br>
+    <label for="resume" class="form-label">Upload or more recent pictures</label><br>
+    <!-- <span class="input-group-text" id="basic-addon1">Browse</span> -->
+    <input type="file" name="Browse" id="Browse"> <br><br>
+    <input type="submit" value="Submit" class="border-success bg-success text-light"><br><br>;
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
